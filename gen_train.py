@@ -14,7 +14,6 @@
 # limitations under the License.
 
 import sys
-import re
 import getopt
 import sqlite3
 from prepro import normalize_spaces, remove_symbols, preprocess
