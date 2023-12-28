@@ -16,10 +16,10 @@
 import sys
 import os
 import getopt
+import tempfile
 from gen_train import gen_train_file
 from gen_model import gen_model_file
 from settings import TRAIN_DB, MODEL_BIN
-import tempfile
 
 
 def main(argv):
