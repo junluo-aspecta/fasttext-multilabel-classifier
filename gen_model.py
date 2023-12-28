@@ -13,10 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from fasttext import train_supervised
 import getopt
 import sys
 from settings import LEARNING_RATE, WORD_N_GRAMS, EPOCH, LOSS
+from fasttext import train_supervised
 
 
 def gen_model_file(trainfile, modelfile, wordNgrams=WORD_N_GRAMS, lr=LEARNING_RATE, epoch=EPOCH, loss=LOSS):
