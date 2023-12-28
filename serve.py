@@ -16,10 +16,9 @@
 import sys
 import os
 import falcon
-from wsgiref import simple_server
-import serve
-from fasttext import load_model
 import getopt
+from wsgiref import simple_server
+from fasttext import load_model
 from logging import getLogger, StreamHandler, Formatter, INFO
 from prepro import preprocess
 from falcon.media.validators import jsonschema
